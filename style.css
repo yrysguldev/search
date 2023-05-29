@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.54);
+    backdrop-filter:blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: white;
+}
+.header-nav a {
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+#select {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    color: rgb(6, 81, 136);
+    border-radius: 10px;
+
+}
+
+
+.header-search input {
+    width: 400px;
+    height: 25px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.header-search button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: blue;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #3ed583;
+}
+
+.hero {
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* gap: 40px; */
+}
+.box {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    border: solid 3px rgb(205, 200, 200);
+    transition: 0.3s;
+    position: relative;
+    background: rgb(1, 83, 94);
+}
+.box:hover {
+    transform: translateY(-3px);
+
+    -webkit-box-shadow: 2px 4px 21px 10px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 2px 4px 21px 10px rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 4px 21px 10px rgba(255, 255, 255, 0.2);
+}
+.name {
+    font-size: 20px;
+    color: aliceblue;
+    margin: 10px 0;
+}
+.area {
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 5px;
+}
+.population {
+    font-size: 15px;
+    color: aliceblue;
+    margin: 10px 0;
+}
+.capital {
+    font-size: 15px;
+    color: aliceblue;
+}
+.map {
+    position: absolute;
+    bottom:20px;
+    font-size: 15px;
+    color: rgb(208, 3, 240);
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+   background: aquamarine;
+    gap: 10px;
+
+}
